@@ -55,7 +55,7 @@ NYC_BB <- subset(DB_311, bb == "TRUE")
 
 BB_311 <- read.csv("NYC_311_bb_2010_2020.csv")
 
-table(BB_311$AGENCY, BB_311$BRIEF_DESCRIPTION)
+table(BB_311$AGENCY, BB_311$BRIEF_DESCRIPTION) #results are for Table 1
 
 BB_311 <- BB_311 %>%
   mutate(C_Date = lubridate::mdy(DATE)) %>% 
