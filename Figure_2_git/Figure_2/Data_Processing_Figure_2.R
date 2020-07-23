@@ -69,9 +69,8 @@ devtools::install_github("dkahle/ggmap", ref = "tidyup", force=TRUE)
 library("ggmap")
 
 #Set your API Key
-#ok finally got that working 
 
-ggmap::register_google(key = "AIzaSyASPDSWKvYuzqpKeIOe3keumzr_NZr__NQ")
+ggmap::register_google(key = "#INSERT PERSONAL API KEY HERE")
 
 
 # Read in the CSV data and store it in a variable 
